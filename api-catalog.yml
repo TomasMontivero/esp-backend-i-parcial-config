@@ -6,7 +6,7 @@ spring:
     name: api-catalog
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/esp-backend-i-parcial?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
+    url: jdbc:mysql://localhost:3308/esp-backend-i-parcial?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
     username: user
     password: password
   jpa:
