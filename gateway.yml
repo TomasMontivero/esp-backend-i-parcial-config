@@ -15,7 +15,7 @@ spring:
           predicates:
             - Path=/api/v1/catalog/**   #- Path=/api/catalog/**
         - id: id-api-movie
-           uri: lb://api-movie          #uri: http://localhost:8085   
+          uri: lb://api-movie          #uri: http://localhost:8085   
           predicates:
             - Path=/api/v1/movies/**    #- Path=/api/movie/**
 
