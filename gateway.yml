@@ -11,13 +11,13 @@ spring:
           enabled: true
       routes:
         - id: id-api-catalog
-          uri: lb://api-catalog
+          uri: http://localhost:8086    #uri: lb://api-catalog
           predicates:
-            - Path=/api/catalog/**
+            - Path=/api/v1/catalog/**   #- Path=/api/catalog/**
         - id: id-api-movie
-          uri: lb://api-movie
+           uri: http://localhost:8085   #uri: lb://api-movie
           predicates:
-            - Path=/api/movie/**
+            - Path=/api/v1/movies/**   #- Path=/api/movie/**
 
 info:
   app:
