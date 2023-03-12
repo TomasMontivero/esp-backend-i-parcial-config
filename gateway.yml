@@ -9,6 +9,8 @@ spring:
       discovery:
         locator:
           enabled: true
+      default-filters:
+        - name: LogFilter
       routes:
         - id: id-api-catalog
           uri: lb://api-catalog         #uri: http://localhost:8086    
