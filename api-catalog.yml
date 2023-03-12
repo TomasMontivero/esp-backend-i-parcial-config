@@ -4,32 +4,6 @@ server:
 spring:
   application:
     name: api-catalog
-#  datasource:
-#    driverClassName: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://localhost:3308/esp-backend-i-parcial?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
-#    username: user
-#    password: password
-#  jpa:
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.MySQL5Dialect
-#        show-sql: true
-#    generate-ddl: true
-#    hibernate:
-#      ddl-auto: update
-  datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3308/movie-dev?createDatabaseIfNotExist=true&useUnicode=true&amp&characterEncoding=utf-8&autoReconnect=true
-    username: usr-movie
-    password: pwd-movie
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-        show-sql: true
-    hibernate:
-      ddl-auto: update
-    generate-ddl: true
 
 info:
   application:
